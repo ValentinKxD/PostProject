@@ -1,0 +1,53 @@
+
+.input-group {
+  display: flex;
+  flex-direction: column; 
+  gap: 8px; 
+  margin-bottom: 20px; 
+}
+
+
+.tracking-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 15px;
+  font-size: 1rem;
+  font-family: inherit; 
+  color: #111827;
+  
+  border: 1px solid #9db5cd;
+  border-radius: 6px;
+  background-color: #fff;
+  outline: none; 
+  box-shadow: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.tracking-input:focus {
+  border-color: #1f62d1; 
+  box-shadow: 0 0 0 3px rgba(31, 98, 209, 0.15); 
+}
+
+.button-container {
+  text-align: center;
+  width: 100%;
+}
+.tracking-btn{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #9db5cd;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.tracking-btn:hover{
+    border-color: #1f62d1;
+    
+}
